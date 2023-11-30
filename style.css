@@ -311,7 +311,7 @@ section {
           max-height: 60px;
      }
 
-     /* Main btn responsive */
+     /* btn responsive */
      .main-btn {
           padding: 9px 21px;
           color: var(--white-c);
@@ -321,13 +321,18 @@ section {
           font-size: 12px;
           border-radius: 56px;
           transition: background-color 0.3s ease;
-      }
+     }
+
+     .primary-btn {
+          font-size: 14px;
+     }
+
      /* --------------------------- */
      /* --Reusable Navigation Responsive style Here */
      /* ------------------------------- */
      .nav-links {
           position: absolute;
-          top: 12%;
+          top: 10%;
           left: 0;
           width: 100%;
           padding: 1rem 0;
@@ -347,6 +352,10 @@ section {
           opacity: 0;
           transform: translateY(-20px);
           transition: opacity 0.3s ease, transform 0.3s ease;
+     }
+
+     .nav-links ul li a {
+          font-size: 16px;
      }
 
      .btn {
@@ -409,9 +418,10 @@ section {
      /* Section-1 */
      /* ---------------------------- */
 
-     .home-section-1{
+     .home-section-1 {
           padding-left: 1.3rem;
      }
+
      .home-section-1-content {
           flex-direction: column;
      }
@@ -456,9 +466,11 @@ section {
           margin-top: 3rem;
           flex-direction: column;
      }
-     .home-section-1-left-content .counter .counter-div{
+
+     .home-section-1-left-content .counter .counter-div {
           margin-bottom: 1rem;
      }
+
      .home-section-1-left-content .counter .counter-div i {
           padding: 10px;
           font-size: 22px;
@@ -468,24 +480,26 @@ section {
           margin-left: 1rem;
           text-align: left;
      }
+
      .home-section-1-left-content .counter .counter-div div h5 {
           font-weight: 800;
           font-size: 17px;
      }
-     .home-section-1-left-content .counter .counter-div  div h6{
+
+     .home-section-1-left-content .counter .counter-div div h6 {
           font-weight: 400;
           font-size: 10px;
      }
 
      .home-section-1-right-content {
           width: 100%;
-          margin-top: -16rem;
+          margin-top: -18rem;
           margin-left: 2rem;
           overflow: hidden;
           z-index: -1;
       }
       .home-section-1-right-content img {
-          width: 127%;
+          width: 140%;
           margin-left: 2rem;
       }
 }
