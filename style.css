@@ -19,3 +19,100 @@ body * {
 html {
      scroll-behavior: smooth;
 }
+
+h1 {
+     font-size: 46px;
+}
+
+h2 {
+     font-weight: 600;
+     font-size: 35px;
+     width: 58%;
+}
+
+h3 {
+     font-size: 20px;
+     font-weight: 600;
+}
+
+h5 {
+     font-size: 20px;
+     color: var(--secondary-bg-color);
+     font-weight: 600;
+     margin: 10px 0;
+}
+
+h6 {
+     font-size: 10px;
+     margin: 0;
+     font-weight: 500;
+}
+
+p {
+     font-size: 14px;
+     color: var(--secondary-bg-color);
+     font-weight: 500;
+}
+
+/* section */
+section {
+     height: inherit;
+     flex-direction: column;
+     padding: 0 3rem;
+     background-color: yellow;
+}
+
+/* ---------------------------- */
+/* Reusable Navigation style */
+/* ---------------------------- */
+/* navigation bar */
+.navigation {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 15px 0;
+}
+
+.logo img {
+     max-height: 70px;
+}
+
+.nav-links ul {
+     display: flex;
+     justify-content: flex-end;
+     align-items: center;
+}
+
+.nav-links ul li {
+     margin: 0 15px;
+}
+
+.nav-links ul li a {
+     color: var(--primary-font-color);
+     text-decoration: none;
+     font-weight: 500;
+     font-size: 16px;
+     transition: color 0.3s ease;
+}
+
+.nav-links ul li a:hover {
+     color: black;
+}
+
+.menu-toggle {
+     display: none;
+     cursor: pointer;
+     font-size: 30px;
+}
+
+.menu-toggle i.fa-times {
+     display: none;
+}
+
+
+/* ---------------------------- */
+/* (HOME PAGE) */
+/* ---------------------------- */
+/* ---------------------------- */
+/* Section-1 */
+/* ---------------------------- */
