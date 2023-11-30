@@ -4,8 +4,23 @@
 <head>
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Document</title>
+     <title>Biodesk - Research Solutions</title>
+     <!-- FAV ICONS  -->
+     <link rel="apple-touch-icon" sizes="180x180" href="./Assests/fav-icons/apple-touch-icon.png" />
+     <link rel="icon" type="image/png" sizes="32x32" href="./Assests/fav-icons/favicon-32x32.png" />
+     <link rel="icon" type="image/png" sizes="16x16" href="./Assests/fav-icons/favicon-16x16.png" />
+     <link rel="manifest" href="./Assests/fav-icons/site.webmanifest" />
+     <!-- STYLE SHEET  -->
      <link rel="stylesheet" href="./style.css">
+
+     <!-- Google Fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,700;1,800;1,900&display=swap"
+          rel="stylesheet">
+
+     <!-- Font Awesome CDN -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 
 <body>
@@ -15,7 +30,7 @@
      <!-- ------------- -->
 
      <section class="home-section-1">
-          
+
           <!-- Navigation Bar -->
           <nav class="navigation">
                <div class="logo"><img src="Assests/BioDesk Logo/biodesk-print.png"></div>
@@ -25,21 +40,12 @@
                               <a href="index.html">Home</a>
                          </li>
                          <li>
-                              <a href="about.html">About</a>
+                              <a href="about.html">Services</a>
                          </li>
                          <li>
-                              <a href="service.html">Services</a>
+                              <a href="service.html">About Us</a>
                          </li>
-                         <li>
-                              <a href="products.html">Products</a>
-                         </li>
-                         <li>
-                              <a href="#solutions-partner">Solutions Partner</a>
-                         </li>
-                         <li>
-                              <a href="#career">Career</a>
-                         </li>
-                         <a href="#" class="btn">Contact Us</a>
+                         <a href="#" class="primary-btn"><i class="fa-brands fa-whatsapp"></i> Chat Now</a>
                     </ul>
 
                </div>
@@ -50,9 +56,92 @@
                     <i class="fas fa-times"></i>
                </div>
           </nav>
+
+          <!-- Section-1 Content Start here -->
+          <div class="home-section-1-content">
+
+               <!-- Content -1 -->
+               <div class="home-section-1-left-content">
+
+                    <!-- Main Heading with color boll-->
+                    <div>
+                         <!-- Heading -->
+                         <h1>
+                              Struggling with your Research?
+                         </h1>
+                         <!-- color balls -->
+                         <div class="color-balls">
+                              <div class="color-ball-1"></div>
+                              <div class="color-ball-2"></div>
+                         </div>
+                    </div>
+
+                    <!-- paragraph -->
+                    <p>
+                         Let's unlock your way forward! We are here to guide you with top-notch support for your PhD.
+                    </p>
+
+                    <!-- Main button -->
+                    <a href="" class="main-btn">Get Started</a>
+
+                    <!-- Counter -->
+                    <div class="counter">
+                         <!-- counter-1 -->
+                         <div class="counter-div">
+                              <i class="fa-regular fa-thumbs-up"></i>
+                              <div>
+                                   <h5>20K</h5>
+                                   <h6>
+                                        Happy Customers
+                                   </h6>
+                              </div>
+                         </div>
+
+                         <!-- counter-2 -->
+                         <div class="counter-div">
+                              <i class="fa-solid fa-folder-open"></i>
+
+                              <div>
+                                   <h5>19k+</h5>
+                                   <h6>
+                                        Orders Completed/ Year
+                                   </h6>
+                              </div>
+                         </div>
+                    </div>
+
+               </div>
+
+               <!-- Content -2 -->
+               <div class="home-section-1-right-content">
+
+                    <!-- Image -->
+                    <img src="Assests/Section-1-girl-img.png" alt="">
+
+                    <!-- background circle -->
+                    <div class="background-circle"></div>
+               </div>
+          </div>
      </section>
 
 
+
+
+
+     <!-- Local js file -->
+     <script>
+          //////////////// Reusable Hamburger Menu Navigation Bar function 
+          document.querySelector('.menu-toggle').addEventListener('click', function () {
+               const navLinks = document.querySelector('.nav-links');
+               navLinks.classList.toggle('active');
+
+               // Toggle between hamburger and close icons
+               const barsIcon = document.querySelector('.menu-toggle i.fa-bars');
+               const timesIcon = document.querySelector('.menu-toggle i.fa-times');
+               barsIcon.style.display = navLinks.classList.contains('active') ? 'none' : 'block';
+               timesIcon.style.display = navLinks.classList.contains('active') ? 'block' : 'none';
+          });
+     </script>
 </body>
 
 </html>
