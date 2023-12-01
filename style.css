@@ -190,6 +190,7 @@ section {
 /* color balls */
 
 .color-balls {
+     width: 75px;
      position: absolute;
      top: 9rem;
      left: 27rem;
@@ -265,10 +266,242 @@ section {
      margin-left: 4rem;
 }
 
+/* ---------------------------- */
+/* Section-2 */
+/* ---------------------------- */
+.home-section-2 {
+     padding: 1rem 2rem;
+}
+
+.features {
+     width: 90%;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+
+}
+
+.featureBox {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+
+.featureIcon {
+     width: 100px;
+     height: auto;
+}
+
+.featureTagline {
+
+     text-align: center;
+     font-size: 20px;
+     margin: 0 auto;
+     font-weight: 400;
+}
+
+/* ---------------------------- */
+/* Section-3 */
+/* ---------------------------- */
+.home-section-3 {
+     padding: 1rem 2rem;
+     display: flex;
+     flex-direction: row;
+}
+
+.home-section-3-left-content {
+     width: 70%;
+}
+
+.section-3-left-image {
+     max-width: 100%;
+}
+
+.home-section-3-right-content {
+     width: 45%;
+     margin: auto 0;
+}
+
+.section-3-heading {
+     margin: 1rem 0;
+}
+
+.section-3-text {
+     width: 65%;
+     margin: 1rem 0;
+}
+
+.section-3-btn-box {
+     display: flex;
+     flex-direction: row;
+     gap: 3rem;
+}
+
+.section-3-btn-box a {
+     margin: 1rem 0;
+}
+
+/* ---------------------------- */
+/* Section-4 */
+/* ---------------------------- */
 
 
+.home-section-4 {
+     margin: 3rem 2rem;
+     display: flex;
+     flex-direction: row;
+}
+
+.home-section-4-left {
+     display: flex;
+     flex-direction: column;
+}
+
+.section-4-heading h2 {
+     width: 60%;
+     font-weight: 800;
+}
+
+.section-4-points ul {
+     list-style-type: none;
+}
+
+.section-4-points li {
+     font-size: 30px;
+     padding: 4rem 0rem 4rem 8rem;
+     background: url("./Assests/tick-removebg.png") no-repeat left center;
+     background-size: 150px 150px;
+}
+
+.home-section-4-right {
+     width: 60%;
+}
+
+.section-4-img {
+     width: 100%;
+     overflow: hidden;
+     margin-left: auto;
+     position: relative;
+     bottom: 10%;
+     float: right;
+
+}
 
 
+/* ---------------------------- */
+/* Section-5 */
+/* ---------------------------- */
+
+.home-section-5 {
+     display: flex;
+     flex-direction: column;
+     background-color: var(--light-yellow);
+     padding: 0rem 7rem 3rem;
+     width: 50%;
+     margin: 2rem auto;
+     border-radius: 250px;
+}
+
+.section-5-container {
+     text-align: center;
+}
+
+.section-5-container h2 {
+     margin: 2rem auto;
+     text-align: center;
+}
+
+.section-5-container a {
+     margin: 2rem auto;
+     align-self: center;
+}
+
+/* ---------------------------- */
+/* Section-5 */
+/* ---------------------------- */
+
+.home-section-6 {
+     width: 100%;
+     background-color: var(--light-orange);
+     padding: 2rem 4rem;
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+}
+
+.section-6-container {
+     width: 90%;
+}
+
+.section-6-container h1 {
+     width: 50%;
+     margin: 2rem auto;
+}
+
+.section-6-container p {
+     width: 40%;
+     margin: 2rem auto;
+}
+
+.form-field {
+     border: none;
+}
+
+.form-group {
+     background-color: var(--light-pink);
+     padding: 2rem 2rem;
+     width: 40%;
+     margin: 2rem auto;
+     border-radius: 50px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+
+}
+
+.form-group input {
+     background-color: var(--light-pink);
+     width: 60%;
+     font-size: 20px;
+}
+
+.form-group a {
+     margin-left: 1rem;
+}
+
+
+/* ---------------------------- */
+/* Footer */
+/* ---------------------------- */
+
+.Footer {
+     width: 100%;
+     padding: 2rem;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+}
+
+.Footer img {
+
+     height: 100px;
+     width: auto;
+}
+
+.Footer ul {
+     list-style-type: none;
+     padding: 0;
+     margin: 0;
+}
+
+.Footer li {
+     font-size: 50px;
+     display: inline-block;
+     /* Display list items horizontally */
+     margin-right: 20px;
+     /* Adjust the margin between icons */
+}
 
 
 
@@ -321,7 +554,8 @@ section {
           font-size: 12px;
           border-radius: 56px;
           transition: background-color 0.3s ease;
-      }
+     }
+
      /* --------------------------- */
      /* --Reusable Navigation Responsive style Here */
      /* ------------------------------- */
@@ -409,9 +643,10 @@ section {
      /* Section-1 */
      /* ---------------------------- */
 
-     .home-section-1{
+     .home-section-1 {
           padding-left: 1.3rem;
      }
+
      .home-section-1-content {
           flex-direction: column;
      }
@@ -456,9 +691,11 @@ section {
           margin-top: 3rem;
           flex-direction: column;
      }
-     .home-section-1-left-content .counter .counter-div{
+
+     .home-section-1-left-content .counter .counter-div {
           margin-bottom: 1rem;
      }
+
      .home-section-1-left-content .counter .counter-div i {
           padding: 10px;
           font-size: 22px;
@@ -468,11 +705,13 @@ section {
           margin-left: 1rem;
           text-align: left;
      }
+
      .home-section-1-left-content .counter .counter-div div h5 {
           font-weight: 800;
           font-size: 17px;
      }
-     .home-section-1-left-content .counter .counter-div  div h6{
+
+     .home-section-1-left-content .counter .counter-div div h6 {
           font-weight: 400;
           font-size: 10px;
      }
@@ -483,9 +722,133 @@ section {
           margin-left: 2rem;
           overflow: hidden;
           z-index: -1;
-      }
-      .home-section-1-right-content img {
+     }
+
+     .home-section-1-right-content img {
           width: 127%;
           margin-left: 2rem;
-      }
+     }
+
+     /* ---------------------------- */
+     /* Section-2 */
+     /* ---------------------------- */
+     .features {
+          flex-direction: column;
+          gap: 3rem;
+
+
+     }
+
+     .featureIcon {
+          width: 100px;
+          height: auto;
+     }
+
+     .featureTagline {
+
+          text-align: center;
+          font-size: 20px;
+          margin: 0 auto;
+          font-weight: 400;
+     }
+
+     /* ---------------------------- */
+     /* Section-3 */
+     /* ---------------------------- */
+
+     .home-section-3 {
+          padding: 1rem 2rem;
+          display: flex;
+          flex-direction: column-reverse;
+     }
+
+     .home-section-3-left-content {
+          width: 100%;
+     }
+
+     .home-section-3-right-content {
+          width: 100%;
+          margin: auto 0;
+     }
+
+     .section-3-text {
+          width: 80%;
+     }
+
+     /* ---------------------------- */
+     /* Section-4 */
+     /* ---------------------------- */
+
+
+     .home-section-4 {
+          margin: 3rem 0rem;
+          display: flex;
+          flex-direction: column;
+     }
+
+     .home-section-4-container {
+          flex-direction: column;
+     }
+
+     .home-section-4-left {
+          width: 90%;
+     }
+
+     .section-4-heading h2 {
+          width: 100%;
+          z-index: 10;
+     }
+
+     .section-4-points ul {
+          margin-top: 1rem;
+          width: 50%;
+     }
+
+     .section-4-points li {
+          font-size: 10px;
+          padding: 1rem 0 1rem 5rem;
+          margin-left: -2rem;
+          background-size: 100px 100px;
+     }
+
+     .home-section-4-right {
+          width: auto;
+     }
+
+     .section-4-img {
+          max-width: 87%;
+          margin-top: -81%;
+          left: 26%;
+          position: relative;
+          float: right;
+          z-index: -99;
+          overflow: hidden;
+     }
+
+
+     /* ---------------------------- */
+/* Footer */
+/* ---------------------------- */
+
+
+
+.Footer img {
+
+     height: 100px;
+     width: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
