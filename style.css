@@ -405,7 +405,6 @@ section {
 }
 
 .section-5-container {
-     max-width: 80%;
      text-align: center;
      padding: 2rem 2rem 3rem 2rem;
 }
@@ -447,36 +446,38 @@ section {
 
 .form-field {
      border: none;
+     width: 50%;
 }
 
 .form-group {
      background-color: var(--light-pink);
-     padding: 0 1rem;
+     padding: 0;
      margin: 2rem auto;
      border-radius: 50px;
      display: flex;
      flex-direction: row;
      justify-content: space-between;
+     width: fit-content;
 
 }
 
 .form-group input {
      background-color: var(--light-pink);
      height: 2rem;
-     margin: auto 0;
+     margin: auto 1rem;
      font-weight: 800;
+     border: none;
 }
 
 .form-group>.main-btn{
      width: fit-content;
-     font-size: 15px;
 
 }
+.form-group>.main-btn:hover{
+     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+     background-color: var(--bright-pink);
 
-.form-group a {
-     margin-left: 1rem;
 }
-
 
 /* ---------------------------- */
 /* Footer */
