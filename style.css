@@ -134,6 +134,7 @@ section {
      font-size: 16px;
      border-radius: 56px;
      transition: background-color 0.3s ease;
+     width: fit-content;
 }
 
 .main-btn:hover {
@@ -271,6 +272,7 @@ section {
 /* ---------------------------- */
 .home-section-2 {
      padding: 1rem 2rem;
+     margin: 2rem;
 }
 
 .features {
@@ -314,7 +316,7 @@ section {
 }
 
 .section-3-left-image {
-     max-width: 100%;
+     max-width: 80%;
 }
 
 .home-section-3-right-content {
@@ -396,23 +398,26 @@ section {
      display: flex;
      flex-direction: column;
      background-color: var(--light-yellow);
-     padding: 0rem 7rem 3rem;
-     width: 50%;
      margin: 2rem auto;
      border-radius: 250px;
+     width: 75%;
+     align-items: center;
 }
 
 .section-5-container {
+     max-width: 80%;
      text-align: center;
+     padding: 2rem 2rem 3rem 2rem;
 }
 
 .section-5-container h2 {
-     margin: 2rem auto;
+     max-width:fit-content;
      text-align: center;
+     margin:2rem auto;
 }
 
 .section-5-container a {
-     margin: 2rem auto;
+     margin: 1rem auto;
      align-self: center;
 }
 
@@ -421,25 +426,22 @@ section {
 /* ---------------------------- */
 
 .home-section-6 {
-     width: 100%;
      background-color: var(--light-orange);
-     padding: 2rem 4rem;
+     padding: 2rem;
      display: flex;
      flex-direction: column;
      text-align: center;
-}
+     height: fit-content;
 
-.section-6-container {
-     width: 90%;
 }
 
 .section-6-container h1 {
-     width: 50%;
+     width: fit-content;
      margin: 2rem auto;
 }
 
 .section-6-container p {
-     width: 40%;
+     width: fit-content;
      margin: 2rem auto;
 }
 
@@ -449,8 +451,7 @@ section {
 
 .form-group {
      background-color: var(--light-pink);
-     padding: 2rem 2rem;
-     width: 40%;
+     padding: 0 1rem;
      margin: 2rem auto;
      border-radius: 50px;
      display: flex;
@@ -461,8 +462,15 @@ section {
 
 .form-group input {
      background-color: var(--light-pink);
-     width: 60%;
-     font-size: 20px;
+     height: 2rem;
+     margin: auto 0;
+     font-weight: 800;
+}
+
+.form-group>.main-btn{
+     width: fit-content;
+     font-size: 15px;
+
 }
 
 .form-group a {
@@ -475,7 +483,6 @@ section {
 /* ---------------------------- */
 
 .Footer {
-     width: 100%;
      padding: 2rem;
      display: flex;
      flex-direction: row;
@@ -533,7 +540,10 @@ section {
      h2 {
           font-weight: 600;
           font-size: 24px;
-          width: 100%;
+     }
+
+     p{
+          font-size: 11px;
      }
 
      .heading {
@@ -816,9 +826,9 @@ section {
      }
 
      .section-4-img {
-          max-width: 87%;
+          max-width: 68%;
           margin-top: -81%;
-          left: 26%;
+          left: 9.5%;
           position: relative;
           float: right;
           z-index: -99;
@@ -827,16 +837,79 @@ section {
 
 
      /* ---------------------------- */
-/* Footer */
-/* ---------------------------- */
+     /* Section-5 */
+     /* ---------------------------- */
+
+     .home-section-5 {
+          padding: 1rem;
+
+     }
+
+     .section-5-container {
+          padding: 0;
+     }
+
+     .section-5-container h2{
+          width: fit-content;
+          margin:1rem auto;
+     }
 
 
 
-.Footer img {
 
-     height: 100px;
-     width: auto;
-}
+
+
+
+
+      /* ---------------------------- */
+     /* Section-6 */
+     /* ---------------------------- */
+
+
+
+     .section-6-container h1 {
+
+          font-size: 25px;
+     }
+
+     .section-6-container p {
+          margin:0 auto;
+     }
+
+   
+
+
+     /* ---------------------------- */
+     /* Footer */
+     /* ---------------------------- */
+
+
+     .Footer{
+          padding: 1rem;
+          align-items: center;
+     }
+
+     .Footer p{
+          font-size: 5px;
+     }
+
+
+
+     .Footer img {
+          height: 20px;
+          width: auto;
+     }
+     .Footer ul {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+     }
+
+     .Footer i{
+          font-size: 20px;
+     }
+
+
 
 
 
