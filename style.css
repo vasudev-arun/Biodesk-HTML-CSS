@@ -355,6 +355,12 @@ section {
      width: 70%;
 }
 
+.section-4-heading{
+     width: 30rem;
+     font-weight: 800;
+     margin-left: 5rem;
+}
+
 .section-4-points {
      font-size: 30px;
 }
@@ -805,9 +811,17 @@ section {
      .home-section-4-left {
           width: 50%;
      }
+
+     .section-4-heading{
+          width: 13rem;
+          font-weight: 800;
+          margin-left: 0rem;
+     }
      
      .section-4-points {
           font-size: 30px;
+          position: relative;
+          left: -3rem;
      }
      
      .section-4-points ul {
@@ -836,6 +850,8 @@ section {
      
      .section-4-img {
           height: 100%;
+          z-index: -9;
+     
 
      }
 
