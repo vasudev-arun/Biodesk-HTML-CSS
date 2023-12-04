@@ -372,7 +372,7 @@ section {
 
 .section-4-points li {
      margin:1rem;
-     padding:10px 1rem 10px 10rem;
+     padding: 2rem 2rem 2rem 10rem;
      background: url('./Assests/tick-removebg.png') no-repeat left center;
      background-size: 200px 200px;
      /* Adjust the size as needed */
@@ -416,6 +416,7 @@ section {
      max-width: fit-content;
      text-align: center;
      margin: 2rem auto;
+     font-weight: 800;
 }
 
 .section-5-container a {
@@ -437,8 +438,9 @@ section {
 
 }
 
-.section-6-container h1 {
+.section-6-container h2 {
      min-width: 50%;
+     font-weight: 800;
      margin: 2rem auto;
 }
 
@@ -468,12 +470,11 @@ section {
      background-color: var(--light-pink);
      height: 2rem;
      margin: auto 1rem;
-     font-weight: 800;
      border: none;
 }
 
 .form-group>.main-btn {
-     width: fit-content;
+     width: 6rem;
 
 }
 
