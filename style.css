@@ -44,7 +44,6 @@ h1 {
 h2 {
      font-weight: 600;
      font-size: 40px;
-     width: 58%;
 }
 
 h3 {
@@ -320,7 +319,7 @@ section {
 }
 
 .home-section-3-right-content {
-     width: 45%;
+     width: 50%;
      margin: auto 0;
 }
 
@@ -347,47 +346,49 @@ section {
 /* Section-4 */
 /* ---------------------------- */
 
-
 .home-section-4 {
-     margin: 3rem 2rem;
      display: flex;
      flex-direction: row;
 }
 
 .home-section-4-left {
-     display: flex;
-     flex-direction: column;
+     width: 70%;
 }
 
-.section-4-heading h2 {
-     width: 60%;
-     font-weight: 800;
+.section-4-points {
+     font-size: 30px;
 }
 
 .section-4-points ul {
      list-style-type: none;
+     padding: 0;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
 }
 
+
 .section-4-points li {
+     margin:1rem;
+     padding:10px 1rem 10px 10rem;
+     background: url('./Assests/tick-removebg.png') no-repeat left center;
+     background-size: 200px 200px;
+     /* Adjust the size as needed */
+     line-height: 30px;
+     /* Adjust the line height to match the image size */
      font-size: 30px;
-     padding: 4rem 0rem 4rem 8rem;
-     background: url("./Assests/tick-removebg.png") no-repeat left center;
-     background-size: 150px 150px;
 }
 
 .home-section-4-right {
-     width: 60%;
+     width: 30%;
 }
 
 .section-4-img {
      width: 100%;
-     overflow: hidden;
-     margin-left: auto;
-     position: relative;
-     bottom: 10%;
-     float: right;
-
 }
+
+
+
 
 
 /* ---------------------------- */
@@ -410,9 +411,9 @@ section {
 }
 
 .section-5-container h2 {
-     max-width:fit-content;
+     max-width: fit-content;
      text-align: center;
-     margin:2rem auto;
+     margin: 2rem auto;
 }
 
 .section-5-container a {
@@ -421,7 +422,7 @@ section {
 }
 
 /* ---------------------------- */
-/* Section-5 */
+/* Section-6 */
 /* ---------------------------- */
 
 .home-section-6 {
@@ -469,11 +470,12 @@ section {
      border: none;
 }
 
-.form-group>.main-btn{
+.form-group>.main-btn {
      width: fit-content;
 
 }
-.form-group>.main-btn:hover{
+
+.form-group>.main-btn:hover {
      box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
      background-color: var(--bright-pink);
 
@@ -543,7 +545,7 @@ section {
           font-size: 24px;
      }
 
-     p{
+     p {
           font-size: 11px;
      }
 
@@ -768,6 +770,7 @@ section {
      /* ---------------------------- */
 
      .home-section-3 {
+
           padding: 1rem 2rem;
           display: flex;
           flex-direction: column-reverse;
@@ -786,55 +789,60 @@ section {
           width: 80%;
      }
 
+
+
+
      /* ---------------------------- */
      /* Section-4 */
      /* ---------------------------- */
 
-
      .home-section-4 {
-          margin: 3rem 0rem;
           display: flex;
-          flex-direction: column;
+          flex-direction: row;
      }
-
-     .home-section-4-container {
-          flex-direction: column;
-     }
-
+     
      .home-section-4-left {
-          width: 90%;
-     }
-
-     .section-4-heading h2 {
-          width: 100%;
-          z-index: 10;
-     }
-
-     .section-4-points ul {
-          margin-top: 1rem;
           width: 50%;
      }
-
+     
+     .section-4-points {
+          font-size: 30px;
+     }
+     
+     .section-4-points ul {
+          list-style-type: none;
+          padding: 0;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+     }
+     
+     
      .section-4-points li {
-          font-size: 10px;
-          padding: 1rem 0 1rem 5rem;
-          margin-left: -2rem;
+          margin:.5rem;
+          padding:10px 1rem 10px 5rem;
+          background: url('./Assests/tick-removebg.png') no-repeat left center;
           background-size: 100px 100px;
+          /* Adjust the size as needed */
+          line-height: 20px;
+          /* Adjust the line height to match the image size */
+          font-size: 15px;
      }
-
+     
      .home-section-4-right {
-          width: auto;
+          width: 50%;
+     }
+     
+     .section-4-img {
+          height: 100%;
+
      }
 
-     .section-4-img {
-          max-width: 68%;
-          margin-top: -81%;
-          left: 9.5%;
-          position: relative;
-          float: right;
-          z-index: -99;
-          overflow: hidden;
-     }
+
+
+
+
+
 
 
      /* ---------------------------- */
@@ -847,12 +855,15 @@ section {
      }
 
      .section-5-container {
+          width: 95%;
           padding: 0;
      }
 
-     .section-5-container h2{
+     .section-5-container h2 {
           width: fit-content;
-          margin:1rem auto;
+          margin: 1rem auto;
+          font-weight: 800;
+          font-size: 22px;
      }
 
 
@@ -862,7 +873,7 @@ section {
 
 
 
-      /* ---------------------------- */
+     /* ---------------------------- */
      /* Section-6 */
      /* ---------------------------- */
 
@@ -874,10 +885,10 @@ section {
      }
 
      .section-6-container p {
-          margin:0 auto;
+          margin: 0 auto;
      }
 
-   
+
 
 
      /* ---------------------------- */
@@ -885,12 +896,12 @@ section {
      /* ---------------------------- */
 
 
-     .Footer{
+     .Footer {
           padding: 1rem;
           align-items: center;
      }
 
-     .Footer p{
+     .Footer p {
           font-size: 5px;
      }
 
@@ -900,13 +911,14 @@ section {
           height: 20px;
           width: auto;
      }
+
      .Footer ul {
           display: flex;
           flex-direction: row;
           justify-content: space-around;
      }
 
-     .Footer i{
+     .Footer i {
           font-size: 20px;
      }
 
