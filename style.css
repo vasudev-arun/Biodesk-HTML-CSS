@@ -192,8 +192,7 @@ section {
 .color-balls {
      width: 75px;
      position: absolute;
-     top: 9rem;
-     left: 27rem;
+     left:39%;
      z-index: -9;
 }
 
@@ -221,7 +220,6 @@ section {
      width: 70%;
      margin: 2rem 0;
 }
-
 
 .home-section-1-left-content .main-btn {
      margin-left: 8rem;
