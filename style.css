@@ -382,7 +382,7 @@ section {
      /* Adjust the size as needed */
      line-height: 30px;
      /* Adjust the line height to match the image size */
-     font-size: 30px;
+     font-size: 20px;
 }
 
 .home-section-4-right {
@@ -443,13 +443,13 @@ section {
 }
 
 .section-6-container h2 {
-     min-width: 50%;
+     width: 50%;
      font-weight: 800;
      margin: 2rem auto;
 }
 
 .section-6-container p {
-     min-width: 60%;
+     width: 40%;
      margin: 2rem auto;
 }
 
@@ -475,6 +475,8 @@ section {
      height: 2rem;
      margin: auto 1rem;
      border: none;
+     border-style: none;
+     
 }
 
 .form-group>.main-btn {
@@ -896,12 +898,14 @@ section {
 
 
 
-     .section-6-container h1 {
+     .section-6-container h2 {
 
           font-size: 25px;
+          width: 90%;
      }
 
      .section-6-container p {
+          width: 80%;
           margin: 0 auto;
      }
 
