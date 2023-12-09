@@ -164,6 +164,15 @@ section {
 
 
 
+.background-circle {
+     background-color: var(--bright-pink);
+     border-radius: 100%;
+
+
+}
+
+
+
 
 
 
@@ -175,10 +184,15 @@ section {
 /* ---------------------------- */
 /* Section-1 */
 /* ---------------------------- */
+.home-section-1 {
+     overflow: hidden;
+}
+
 .home-section-1-content {
      display: flex;
      align-items: flex-start;
      justify-content: center;
+     overflow: hidden;
 }
 
 /*------ left content---------- */
@@ -256,12 +270,24 @@ section {
 
 /*------------ right -------------content */
 .home-section-1-right-content {
-     width: 65%;
+     width: 40rem;
+     overflow: hidden;
 }
 
 .home-section-1-right-content img {
      width: 90%;
      margin-left: 4rem;
+}
+
+.home-section-1-right-content>.background-circle {
+     height: 34rem;
+     width: 34rem;
+     z-index: -1;
+     position: absolute;
+     right: -8rem;
+     top: 10rem;
+     overflow: hidden;
+
 }
 
 /* ---------------------------- */
@@ -270,6 +296,8 @@ section {
 .home-section-2 {
 
      margin: 2rem;
+     background-color: var(--white-c);
+     z-index: 0;
 }
 
 .features {
@@ -317,6 +345,17 @@ section {
 .section-3-left-image {
      max-width: 80%;
 }
+
+.home-section-3-left-content>.background-circle {
+     z-index: -1;
+     position: absolute;
+     height: 40rem;
+     width: 40rem;
+     justify-content: end;
+     top:70rem;
+     overflow: hidden;
+}
+
 
 .home-section-3-right-content {
      width: 50%;
@@ -391,6 +430,15 @@ section {
 
 .section-4-img {
      width: 100%;
+}
+
+.home-section-4-right > .background-circle{
+     position: absolute;
+     right: 0;
+     top: 125rem;
+     height: 30rem;
+     width: 30rem;
+     z-index: -1;
 }
 
 
@@ -504,7 +552,7 @@ section {
 
 .Footer img {
 
-     height: 100px;
+     height: 80px;
      width: auto;
 }
 
@@ -515,7 +563,7 @@ section {
 }
 
 .Footer li {
-     font-size: 50px;
+     font-size: 30px;
      display: inline-block;
      /* Display list items horizontally */
      margin-right: 20px;
@@ -527,6 +575,11 @@ section {
 /* ---------------------------- */
 /* Service page */
 /* ---------------------------- */
+
+/* ---------------------------- */
+/* Service page section 1 */
+/* ---------------------------- */
+
 
 .services-section-2 {
      margin: 2rem;
@@ -726,9 +779,6 @@ section {
           transition-delay: 0.1s;
      }
 
-     .active {
-          color: var(--bright-pink);
-     }
 
      /* Hamburger Icon Animation */
      .menu-toggle i.fa-bars {
@@ -776,6 +826,7 @@ section {
 
      .home-section-1-content {
           flex-direction: column;
+          overflow: hidden;
      }
 
      .home-section-1-left-content {
@@ -1055,21 +1106,21 @@ section {
      /* ---------------------------- */
      /* Service page */
      /* ---------------------------- */
-     
+
      /* ---------------------------- */
      /* Service page section-2 */
      /* ---------------------------- */
 
-     .services-section-header>p{
+     .services-section-header>p {
           width: 75%;
      }
 
-     .services-section-feature-column-container{
+     .services-section-feature-column-container {
           flex-direction: column;
           align-items: center;
      }
 
-     .service-featureBox{
+     .service-featureBox {
           height: 15rem;
           width: 10rem;
      }
@@ -1081,9 +1132,9 @@ section {
      /* ---------------------------- */
 
 
-     .service-section-3-features{
+     .service-section-3-features {
           flex-direction: column;
-          gap:3rem;
+          gap: 3rem;
      }
 
 
