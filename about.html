@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Biodesk - Research Solutions</title>
+     <!-- FAV ICONS  -->
+     <link rel="apple-touch-icon" sizes="180x180" href="./Assests/fav-icons/apple-touch-icon.png" />
+     <link rel="icon" type="image/png" sizes="32x32" href="./Assests/fav-icons/favicon-32x32.png" />
+     <link rel="icon" type="image/png" sizes="16x16" href="./Assests/fav-icons/favicon-16x16.png" />
+     <link rel="manifest" href="./Assests/fav-icons/site.webmanifest" />
+     <!-- STYLE SHEET  -->
+     <link rel="stylesheet" href="./style.css">
+
+     <!-- Google Fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,700;1,800;1,900&display=swap"
+          rel="stylesheet">
+
+     <!-- Font Awesome CDN -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+
+     <!-- ------------ -->
+     <!-- SECTION-1-->
+     <!-- ------------- -->
+
+     <section class="home-section-1">
+
+          <!-- Navigation Bar -->
+          <nav class="navigation">
+               <div class="logo"><img src="Assests/BioDesk Logo/biodesk-print.png"></div>
+               <div class="nav-links">
+                    <ul>
+                         <li>
+                              <a href="index.html">Home</a>
+                         </li>
+                         <li >
+                              <a href="service.html">Services</a>
+                         </li>
+                         <li>
+                              <a href="about.html">About Us</a>
+                         </li>
+                         <a href="#" class="primary-btn"><i class="fa-brands fa-whatsapp"></i> Chat Now</a>
+                    </ul>
+
+               </div>
+
+               <!-- Inside the .navigation div -->
+               <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                    <i class="fas fa-times"></i>
+               </div>
+          </nav>
+
+          
+     </section>
+
+
+     
+
+
+
+
+
+     <!-- ------------ -->
+     <!-- SECTION-5-->
+     <!-- ------------- -->
+
+     <section class="home-section-5">
+          <div class="section-5-container">
+               <h2>Helping You grow for the long run</h2>
+               <a href="" class="main-btn">Explore all services</a>
+          </div>
+     </section>
+
+     <!-- ------------ -->
+     <!-- SECTION-6-->
+     <!-- ------------- -->
+
+     <section class="home-section-6">
+          <div class="section-6-container">
+               <h2>Contact to get the latest news about us!</h2>
+               <p>If you have any questions about our services or how we can help you, contact us today!</p>
+               <div class="formField">
+                    <div class="form-group">
+                         <input class="form-field" type="tel" placeholder="Enter Your Mobile Number">
+                         <a class="main-btn">Contact Us</a>
+                    </div>
+               </div>
+          </div>
+     </section>
+
+
+     <!-- ------------ -->
+     <!-- Footer-->
+     <!-- ------------- -->
+
+     <section class="Footer">
+          <img src="./Assests/BioDesk Logo/biodesk-web.png" alt="">
+          <p>© 2023 Biodesk Research Solutions. All Rights Reserved.</p>
+          <ul>
+               <li><i class="fa-brands fa-facebook"></i></li>
+               <li><i class="fa-brands fa-linkedin"></i></li>
+               <li><i class="fa-brands fa-twitter"></i></li>
+          </ul>
+     </section>
+
+
+
+
+
+
+
+
+     <!-- Local js file -->
+     <script>
+          //////////////// Reusable Hamburger Menu Navigation Bar function 
+          document.querySelector('.menu-toggle').addEventListener('click', function () {
+               const navLinks = document.querySelector('.nav-links');
+               navLinks.classList.toggle('active');
+
+               // Toggle between hamburger and close icons
+               const barsIcon = document.querySelector('.menu-toggle i.fa-bars');
+               const timesIcon = document.querySelector('.menu-toggle i.fa-times');
+               barsIcon.style.display = navLinks.classList.contains('active') ? 'none' : 'block';
+               timesIcon.style.display = navLinks.classList.contains('active') ? 'block' : 'none';
+          });
+     </script>
+</body>
+
+</html>

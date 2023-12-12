@@ -16,7 +16,7 @@ ul {
 body,
 body * {
      font-family: 'Poppins', sans-serif;
-     color: var(--brown)
+     color: var(--brown);
 }
 
 html {
@@ -186,13 +186,13 @@ section {
 /* ---------------------------- */
 .home-section-1 {
      overflow: hidden;
+
 }
 
 .home-section-1-content {
      display: flex;
      align-items: flex-start;
      justify-content: center;
-     overflow: hidden;
 }
 
 /*------ left content---------- */
@@ -244,7 +244,8 @@ section {
 .home-section-1-left-content .counter {
      display: flex;
      align-items: center;
-     justify-content: space-around;
+     justify-content: start;
+     gap: 4rem;
      margin-top: 4rem;
 }
 
@@ -271,7 +272,7 @@ section {
 /*------------ right -------------content */
 .home-section-1-right-content {
      width: 40rem;
-     overflow: hidden;
+     overflow: hidden; /* Add this line to hide overflowing content */
 }
 
 .home-section-1-right-content img {
@@ -286,8 +287,6 @@ section {
      position: absolute;
      right: -8rem;
      top: 10rem;
-     overflow: hidden;
-
 }
 
 /* ---------------------------- */
@@ -610,20 +609,22 @@ section {
 }
 
 .service-featureBox {
-     padding: 3rem;
-     width: 15rem;
-     height: 19rem;
+     padding: 1rem;
+     width: 20rem;
+     height: 20rem;
      box-shadow: rgba(0, 0, 0, 0.35) 0px 7px 15px;
      text-align: center;
 }
 
 .service-featureBox h5 {
      font-weight: 400;
-     font-size: 25px;
+     font-size: 20px;
 }
 
 .service-featureBox p {
+     padding: 1rem;
      margin: 1rem 0;
+     font-size: 15px;
 }
 
 
@@ -868,6 +869,7 @@ section {
           align-items: start;
           margin-top: 3rem;
           flex-direction: column;
+          gap: 0;
      }
 
      .home-section-1-left-content .counter .counter-div {
